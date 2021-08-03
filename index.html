@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tetrix</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <div class="menu">
+        <div class="menu-content">
+          <h2 class="t-ucase">Règles du Jeu</h2>
+          <p class="rules">
+            Utilisez la flèche du <b class="key">Haut</b> du clavier pour la
+            rotation, et les touches <b class="key">Gauche</b> et
+            <b class="key">Droite</b> pour<br />
+            bouger les pièces de gauche à droite. Presser la flèche du
+            <b class="key">Bas </b>
+            pour descendre plus vite!!!
+          </p>
+          <button class="close fw-400">X</button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <h1 class="fw-300 t-ucase">
+        Bienvenue<br /><span class="fw-400 t-wide t-big t-ucase">a tetrix</span>
+      </h1>
+    </header>
+    <main class="game-area">
+      <div class="game">
+        <div class="grid"></div>
+      </div>
+      <section>
+        <div class="display">
+          <h1 class="score fw-400 t-ucase">
+            Votre Score <br />
+            <span class="score-display t-ucase fw-300">0</span>
+          </h1>
+          <div class="previous-shape">
+            <div class="previous-grid"></div>
+          </div>
+          <h2 class="lines-display fw-400 t-ucase">
+            Lignes :<span class="lines-score"> 0</span>
+          </h2>
+        </div>
+        <button class="button t-ucase" href="#">Start / Pause</button>
+        <span id="txt-footer" class="footer t-ucase">Homemade-Web.com</span>
+      </section>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
